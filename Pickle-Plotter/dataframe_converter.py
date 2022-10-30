@@ -3,16 +3,6 @@ import _pickle as pi
 import bz2, json
 import os
 
-"""
-data = {'Name': ['Tom', 'Joseph', 'Krish', 'John'], 'Age': [20, 21, 19, 18]}
-df = pd.DataFrame(data)
-
-print(df)
-
-df[["Name", "Age"]].to_csv("out.csv", index=False)
-"""
-
-
 def generate_dataframe(file):
     current_offset = []
     sample_no = []
