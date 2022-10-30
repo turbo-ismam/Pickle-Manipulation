@@ -42,3 +42,5 @@ res = generate_dataframe(data)
 
 df = pd.DataFrame(res)
 df.to_csv("DF_Conversion/result.csv", index=False)
+
+print("Converted")
