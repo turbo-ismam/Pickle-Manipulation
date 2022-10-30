@@ -3,6 +3,7 @@ import _pickle as pi
 import bz2, json
 import os
 
+
 def generate_dataframe(file):
     current_offset = []
     sample_no = []
@@ -41,4 +42,3 @@ res = generate_dataframe(data)
 
 df = pd.DataFrame(res)
 df.to_csv("DF_Conversion/result.csv", index=False)
-
