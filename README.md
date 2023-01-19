@@ -1,4 +1,2 @@
 # Pickle-Plot
-Plotting data from pickle file
-
-
+Plotting data from pickle file for gammaflash
